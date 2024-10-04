@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/form1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Imię"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:id="@+id/form3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nazwisko"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:id="@+id/form2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Adres E-mail"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:id="@+id/form4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Numer telefonu"
+        android:inputType="phone"/>
+    <EditText
+        android:id="@+id/form5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hasło"
+        android:inputType="textPassword"/>
+    <EditText
+        android:id="@+id/form6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Potweirdź hasło"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/wyslij"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wyślij"/>
+
+
+</LinearLayout>
